@@ -1,0 +1,13 @@
+[design]
+name = "IASI Design"
+version = "0.1.0"
+
+[colors]
+primary = "#39729e"
+background = "#ffffff"
+
+[typography.title]
+family = "Cormorant Garamond"
+weight = 600
+line_height = 1.02
+tracking = -0.025

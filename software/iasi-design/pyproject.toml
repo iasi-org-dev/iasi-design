@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iasi-design"
+version = "0.1.0"
+description = "IASI Design materialization engine"
+requires-python = ">=3.11"
+dependencies = [
+    "Jinja2",
+    "python-pptx",
+    "lxml",
+]
+
+[project.scripts]
+iasi-design = "iasi_design.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
